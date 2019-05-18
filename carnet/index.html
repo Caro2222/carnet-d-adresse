@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Carnet d'adresse</title>
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ <p> Nom Prenom n°telephone</p>
+	<ul>
+		
+	</ul>
+
+	<div id="details">
+		<h3></h3>
+		
+		<p class="telephone"></p>
+		<a href="#" id="modif" data-mode="update">Modifier le contact</a>
+	</div>
+		<button id="addButton" data-mode="add"><i class="fas fa-plus"></i></button>
+		<button><i class="fas fa-trash-restore-alt"></i></button>
+
+	<form id="add-and-update" >
+	<select id="mrmd">
+		<option value="1">madame</option>
+		<option value="2">monsieur</option>
+		<option value="3">mademoiselle</option>
+	</select>
+	<label for="nom">nom</label><input type="text" id=nom></input><br>
+	<label for="prenom">prenom</label><input type="text" id="prenom"><br>
+	<label for="telephone">telephone</label><input type="text" id="telephone"><br>
+	<p></p>
+
+		<a href="#" id="sauver">sauver</a>
+	</form>
+	
+
+	
+	<script src="main.js"></script>
+</body>
+</html>
